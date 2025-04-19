@@ -1,0 +1,25 @@
+class Main {
+    function void main() {
+        var int a, b, sum;
+        
+        // Prompt user for first number
+        do Output.printString("Enter first number: ");
+        let a = Keyboard.readInt("");
+        do Output.println();
+        
+        // Prompt user for second number
+        do Output.printString("Enter second number: ");
+        let b = Keyboard.readInt("");
+        do Output.println();
+        
+        // Compute the sum
+        let sum = a + b;
+        
+        // Output the result
+        do Output.printString("The sum is: ");
+        do Output.printInt(sum);
+        do Output.println();
+        
+        return;
+    }
+}
